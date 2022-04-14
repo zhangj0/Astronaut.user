@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astronaut.user.api", "Astronaut.user.api\Astronaut.user.api.csproj", "{AB1D66FC-0BBA-4370-87D2-36218F12A237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astronaut.user.core", "Astronaut.user.core\Astronaut.user.core.csproj", "{54DFA498-AA00-4438-9EF4-95FDFD72FC55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB1D66FC-0BBA-4370-87D2-36218F12A237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1D66FC-0BBA-4370-87D2-36218F12A237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1D66FC-0BBA-4370-87D2-36218F12A237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1D66FC-0BBA-4370-87D2-36218F12A237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DFA498-AA00-4438-9EF4-95FDFD72FC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DFA498-AA00-4438-9EF4-95FDFD72FC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DFA498-AA00-4438-9EF4-95FDFD72FC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DFA498-AA00-4438-9EF4-95FDFD72FC55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {988E7F83-E44D-44E4-A30A-82DC1519D1CC}
+	EndGlobalSection
+EndGlobal
