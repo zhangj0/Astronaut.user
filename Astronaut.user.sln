@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astronaut.user.api", "Astronaut.user.api\Astronaut.user.api.csproj", "{AB1D66FC-0BBA-4370-87D2-36218F12A237}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronaut.user.api", "Astronaut.user.api\Astronaut.user.api.csproj", "{AB1D66FC-0BBA-4370-87D2-36218F12A237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astronaut.user.core", "Astronaut.user.core\Astronaut.user.core.csproj", "{54DFA498-AA00-4438-9EF4-95FDFD72FC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronaut.user.core", "Astronaut.user.core\Astronaut.user.core.csproj", "{54DFA498-AA00-4438-9EF4-95FDFD72FC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astronaut.user.repository", "Astronaut.user.repository\Astronaut.user.repository.csproj", "{71A98B65-9F81-49F6-9349-550DC939D708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{54DFA498-AA00-4438-9EF4-95FDFD72FC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54DFA498-AA00-4438-9EF4-95FDFD72FC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54DFA498-AA00-4438-9EF4-95FDFD72FC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A98B65-9F81-49F6-9349-550DC939D708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A98B65-9F81-49F6-9349-550DC939D708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A98B65-9F81-49F6-9349-550DC939D708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A98B65-9F81-49F6-9349-550DC939D708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
