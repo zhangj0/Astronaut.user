@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronaut.user.api", "Astro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronaut.user.core", "Astronaut.user.core\Astronaut.user.core.csproj", "{54DFA498-AA00-4438-9EF4-95FDFD72FC55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astronaut.user.repository", "Astronaut.user.repository\Astronaut.user.repository.csproj", "{71A98B65-9F81-49F6-9349-550DC939D708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Astronaut.user.repository", "Astronaut.user.repository\Astronaut.user.repository.csproj", "{71A98B65-9F81-49F6-9349-550DC939D708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astronaut.user.applicantion", "Astronaut.user.applicantion\Astronaut.user.applicantion.csproj", "{431563E9-65CD-44C0-9F12-0FAD5D0C76BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{71A98B65-9F81-49F6-9349-550DC939D708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A98B65-9F81-49F6-9349-550DC939D708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A98B65-9F81-49F6-9349-550DC939D708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431563E9-65CD-44C0-9F12-0FAD5D0C76BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431563E9-65CD-44C0-9F12-0FAD5D0C76BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431563E9-65CD-44C0-9F12-0FAD5D0C76BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431563E9-65CD-44C0-9F12-0FAD5D0C76BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
