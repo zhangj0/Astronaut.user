@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using MediatR;
+﻿using Astronaut.user.applicantion.User.Query;
 using Astronaut.user.applicantion.UserDetail.Query;
-using Astronaut.user.applicantion.User.Query;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Astronaut.user.api.Controllers
 {
@@ -21,9 +20,9 @@ namespace Astronaut.user.api.Controllers
             _iMediator = iMediator;
         }
         [HttpPost("GetUserDetail")]
-        public async Task<QueryUserDetailDto> Get(int userId)
+        public Task<QueryUserDetailDto> Get(int userId)
         {
-            var userDetail = await _iMediator.Send(new QueryUserDetailRequest { UserId = userId });
+            var userDetail = _iMediator.Send(new QueryUserDetailRequest { UserId = userId });
             return userDetail;
         }
     }
