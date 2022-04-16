@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Astronaut.user.applicantion.Query.UserDtetail
+namespace Astronaut.user.applicantion.UserDetail.Command
 {
-    public class QueryUserDetailRequest
+    internal class UpdateUserByUserIdRequest
     {
-        public int UserId { get; set; }
     }
 }

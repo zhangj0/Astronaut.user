@@ -7,8 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Command\User\" />
-    <Folder Include="Query\UserEmail\" />
+    <Folder Include="User\Command\Delete\" />
+    <Folder Include="User\Command\Create\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
   </ItemGroup>
 
 </Project>

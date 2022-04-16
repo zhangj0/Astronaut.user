@@ -1,7 +1,8 @@
-﻿using Astronaut.user.applicantion.Query.UserDtetail;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MediatR;
+using Astronaut.user.applicantion.UserDetail.Query;
+using Astronaut.user.applicantion.User.Query;
 
 namespace Astronaut.user.api.Controllers
 {
@@ -9,22 +10,21 @@ namespace Astronaut.user.api.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        //private readonly ILogger<WeatherForecastController> _logger;
         private readonly IMediator _iMediator;
 
         public UserController(
-            ILogger<WeatherForecastController> logger,
+            //ILogger<WeatherForecastController> logger,
             IMediator iMediator)
         {
-            _logger = logger;
+            //_logger = logger;
             _iMediator = iMediator;
         }
-        [HttpGet("GetUserDetail")]
-        public QueryUserDetailDto Get(QueryUserDetailRequest request)
+        [HttpPost("GetUserDetail")]
+        public async Task<QueryUserDetailDto> Get(int userId)
         {
-            var userDetail = _iMediator.Send(request);
-            return new QueryUserDetailDto();
+            var userDetail = await _iMediator.Send(new QueryUserDetailRequest { UserId = userId });
+            return userDetail;
         }
-
     }
 }
