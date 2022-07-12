@@ -20,9 +20,10 @@ namespace Astronaut.user.api.Controllers
             _iMediator = iMediator;
         }
         [HttpPost("GetUserDetail")]
-        public Task<QueryUserDetailDto> Get(int userId)
+        public async Task<QueryUserDetailDto> Get(int userId)
         {
-            var userDetail = _iMediator.Send(new QueryUserDetailRequest { UserId = userId });
+
+            var userDetail = await _iMediator.Send(new QueryUserDetailRequest { UserId = userId });
             return userDetail;
         }
     }
